@@ -18,7 +18,7 @@ const Form = () =>{
                     <label>Concordo com os termos</label>
                 </div>
             </div>
-            <button>Cadastrar</button>
+           <button>Cadastrar</button>
         </form>
     )
 }
