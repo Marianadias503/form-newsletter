@@ -3,9 +3,9 @@ import {User} from '../types/User';
 type Error = {
     [key:string]: string;
 
-};
+}; 
 
-export const validate = (data:User) =>{
+export const validate = (data:User) =>{ //recebe como parâmetro o User e faz a validação de erros
 
     const erros: Error ={};
 
